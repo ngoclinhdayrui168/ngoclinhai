@@ -1,67 +1,42 @@
-# Remotion CuongIT Template
+# NgocLinh AI Video Template
 
 This repository contains programmatic video templates built with [Remotion](https://www.remotion.dev/), designed for creating educational content for TikTok, YouTube Shorts, and Reels.
 
-## 👨‍💻 Author
-**[CuongIT](https://www.facebook.com/cuongit96/)**
+## Author
+**Ngoc Linh**
 
-## 🔔 Follow for more videos
-- [TikTok @cuongit96](https://www.tiktok.com/@cuongit96)
-- [Facebook Reels](https://www.facebook.com/cuongit96/reels/)
-
-## 📺 Demo Videos
-
-| 🐧 Linux File System | 🐳 Docker Introduction |
-|-------------------|---------------------|
-| [![Linux Demo](https://img.youtube.com/vi/VF75KP0kfEA/0.jpg)](https://youtube.com/shorts/VF75KP0kfEA?feature=share) | [![Docker Demo](https://img.youtube.com/vi/IWGXAhI2N3A/0.jpg)](https://youtube.com/shorts/IWGXAhI2N3A?feature=share) |
-| [Watch on YouTube](https://youtube.com/shorts/VF75KP0kfEA?feature=share) | [Watch on YouTube](https://youtube.com/shorts/IWGXAhI2N3A?feature=share) |
-
-### 🎙️ Advanced Demo (Voice Integration)
-- [Watch on Facebook](https://www.facebook.com/reel/1528707462238368)
-- [Watch on TikTok](https://www.tiktok.com/@cuongit96/video/7599192554772516117)
-
-## 🚀 Features
+## Features
 - **Code-driven animation**: Videos are generated using React and TypeScript.
 - **Tailwind CSS**: Styled for rapid and consistent design.
 - **TikTok/Shorts Optimized**: 9:16 aspect ratio (1080x1920) with "Safe Zone" padding.
 - **Components**: Reusable slides for educational technical content.
 
-## 🛠️ Compositions included
-1. **LinuxFileSystem**: A 50s vertical video explaining the Linux Directory Structure (`/`, `/bin`, `/home`, etc.).
+## Compositions included
+1. **LinuxFileSystem**: A 50s vertical video explaining the Linux Directory Structure.
 2. **DockerIntro**: A vertical video introducing Docker concepts.
 
-## 📦 Installation
+## Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Cuongyd196/remotion-cuongit-template.git
-   cd remotion-cuongit-template
-   ```
+```bash
+git clone https://github.com/ngoclinhdayrui168/ngoclinhai.git
+cd ngoclinhai
+npm install
+```
 
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
+## Usage
 
-## 🎬 Usage
+Start Preview Studio:
 
-**Start Preview Studio:**
 ```bash
 npm run dev
 ```
 
-![Remotion Studio](assets/studio.png)
+Render video:
 
-**Render Video:**
-
-You can render a video directly from the Remotion Studio UI (click "Render" on the composition you want to export), or use the command line:
 ```bash
-# Render Linux video
 npx remotion render LinuxFileSystem
-
-# Render Docker video
 npx remotion render DockerIntro
 ```
 
-## 📝 License
+## License
 Licensed under the MIT License.
